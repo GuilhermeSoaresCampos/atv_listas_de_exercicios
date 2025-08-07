@@ -5,7 +5,7 @@ X, se for o caso.*/
 let teclado = require('prompt-sync')();
 let x: number = 0;
 
-x = parseInt(teclado('Digite um número de 1 até 1000):'));
+x = parseInt(teclado('Digite um número de 1 até 1000:'));
 
 for (let i = 1; i <= x; i++) {
     if (i % 2 !== 0) {
