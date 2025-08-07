@@ -9,7 +9,7 @@ if (n < 0) {
 } else {
     let fatorial: number = 1;
     for (let i = n; i > 1; i--) {
-        fatorial *= i;
+        fatorial = i;
     }
     console.log(`Fatorial de ${n} é: ${fatorial}`);
 }
